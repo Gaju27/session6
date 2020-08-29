@@ -37,4 +37,7 @@
     zip
     map
     poker_game
+    create_deck
+    call_lambda
+    winner
 	
