@@ -43,7 +43,38 @@
 
 ## Test Logs
 
-```test_session6.py::test_flush_20 PASSED                                   [ 48%]
+```st with pytest1s
+Run pytest -v
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.0.1, py-1.9.0, pluggy-0.13.1 -- /opt/hostedtoolcache/Python/3.8.5/x64/bin/python
+cachedir: .pytest_cache
+rootdir: /home/runner/work/session6/session6
+collecting ... collected 49 items
+
+test_session6.py::test_readme_exists PASSED                              [  2%]
+test_session6.py::test_readme_contents PASSED                            [  4%]
+test_session6.py::test_readme_proper_description PASSED                  [  6%]
+test_session6.py::test_readme_file_for_formatting PASSED                 [  8%]
+test_session6.py::test_royal_flush_1 PASSED                              [ 10%]
+test_session6.py::test_royal_flush_2 PASSED                              [ 12%]
+test_session6.py::test_straight_flush_3 PASSED                           [ 14%]
+test_session6.py::test_straight_flush_4 PASSED                           [ 16%]
+test_session6.py::test_straight_flush_5 PASSED                           [ 18%]
+test_session6.py::test_straight_flush_6 PASSED                           [ 20%]
+test_session6.py::test_straight_flush_7 PASSED                           [ 22%]
+test_session6.py::test_straight_flush_8 PASSED                           [ 24%]
+test_session6.py::test_four_of_a_kind_9 PASSED                           [ 26%]
+test_session6.py::test_four_of_a_kind_10 PASSED                          [ 28%]
+test_session6.py::test_four_of_a_kind_11 PASSED                          [ 30%]
+test_session6.py::test_four_of_a_kind_12 PASSED                          [ 32%]
+test_session6.py::test_full_house_13 PASSED                              [ 34%]
+test_session6.py::test_full_house_14 PASSED                              [ 36%]
+test_session6.py::test_flush_15 PASSED                                   [ 38%]
+test_session6.py::test_flush_16 PASSED                                   [ 40%]
+test_session6.py::test_flush_17 PASSED                                   [ 42%]
+test_session6.py::test_flush_18 PASSED                                   [ 44%]
+test_session6.py::test_flush_19 PASSED                                   [ 46%]
+test_session6.py::test_flush_20 PASSED                                   [ 48%]
 test_session6.py::test_straight_21 PASSED                                [ 51%]
 test_session6.py::test_straight_22 PASSED                                [ 53%]
 test_session6.py::test_straight_23 PASSED                                [ 55%]
@@ -71,4 +102,6 @@ test_session6.py::test_deck_creation_normal_function_44 PASSED           [ 97%]
 test_session6.py::test_deck_creation_lambda_function_45 PASSED           [100%]
 
 ============================== 49 passed in 0.10s ==============================
+  Post Run actions/checkout@v20s
+  Complete job
  ```
